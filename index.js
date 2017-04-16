@@ -1,5 +1,5 @@
 function Message (type, data) {
-    if (!data) return function (data) {
+    if (data === undefined) return function (data) {
         return Message(type, data)
     }
     return [type, data]
