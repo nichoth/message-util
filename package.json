@@ -1,6 +1,6 @@
 {
   "name": "message-util",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Work with serialized messages",
   "main": "index.js",
   "directories": {
@@ -13,8 +13,7 @@
     "deps": "dependency-check package.json && dependency-check package.json --unused --entry test/*.js -i dependency-check -i eslint -i eslint-config-minlint -i tap-spec",
     "test": "tape test/*.js | tap-spec"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "dependency-check": "^2.8.0",
     "eslint": "^3.19.0",
