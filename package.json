@@ -14,11 +14,6 @@
     "test": "tape test/*.js | tap-spec"
   },
   "dependencies": {
-    "dependency-check": "^2.8.0",
-    "eslint": "^3.19.0",
-    "eslint-config-minlint": "^2.0.0",
-    "tap-spec": "^4.1.1",
-    "tape": "^4.6.3"
   },
   "devDependencies": {
     "dependency-check": "^2.8.0",
